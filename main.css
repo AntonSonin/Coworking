@@ -1,0 +1,180 @@
+@font-face {
+    font-family: 'open_sans';
+    src: url('./fonts/opensans-bold-webfont.woff2') format('woff2'),
+         url('./fonts/opensans-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: block
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('./fonts/roboto-bold-webfont.woff2') format('woff2'),
+         url('./fonts/roboto-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('./fonts/roboto-light-webfont.woff2') format('woff2'),
+         url('./fonts/roboto-light-webfont.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: fallback
+}
+
+@font-face {
+    font-family: 'roboto';
+    src: url('./fonts/roboto-regular-webfont.woff2') format('woff2'),
+         url('./fonts/roboto-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+    font-display: fallback
+}
+
+body {
+    font-family: "roboto", Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    webkit-font-smoothing: antialiased;
+    moz-osx-font-smoothing: antialiased;
+}
+
+.header {
+    background-color: #27273e
+}
+
+.header__info-tel {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 21px;
+    text-decoration: none;
+}
+
+.header__info-tel {
+    text-decoration: underline;
+}
+
+.header__info-tel:hover {
+    color: #B12167;
+    text-decoration: none;
+}
+
+.header__info-dropdown {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+
+}
+
+.header__info-dropdown:hover {
+    color: #B12167;
+}
+
+ul {
+    list-style: none;
+}
+
+.nav__element {
+    color: #B12167;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.nav__element:hover {
+    color: black;
+    text-decoration: underline; 
+}
+
+.features__title {
+    font-weight: 700;
+    font-size: 49px;
+}
+
+.features__point {
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.features__description {
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.features__block {
+    list-style: disc;
+    disc-color: #B12167; 
+}
+
+.news__title {
+    font-weight: 700;
+    font-size: 49px;
+}
+
+.news__picture-news {
+    width: 160;
+    height: 160;
+    border-radius: 50%;
+}
+
+.switch__title {
+    font-weight: 300;
+    font-size: 12px;
+}
+
+.switch__number {
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.footer {
+    background-color: #27273e;
+}
+
+.made {
+    color: #FFF;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.school-site {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.school-site:hover {
+    color: #B12167;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.creator {
+    color: #FFF;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+.creator-site {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;    
+}
+
+.creator-site:hover {
+    color: #B12167;
+    font-weight: 700;
+    font-size: 16px;
+    text-decoration: none;
+}
+    
+.social-networks__title {
+    color: #FFF;
+    font-weight: 700;
+    font-size: 16px;
+}
